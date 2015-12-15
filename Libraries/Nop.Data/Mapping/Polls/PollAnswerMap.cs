@@ -14,7 +14,7 @@ namespace Nop.Data.Mapping.Polls
                 .WithMany(p => p.PollAnswers)
                 .HasForeignKey(pa => pa.PollId).WillCascadeOnDelete(true);
 
-            sssss
+           
         }
     }
 }
